@@ -1,0 +1,16 @@
+<div class="container mt-5 w-50">
+    <div class="d-flex justify-content-center align-items-center gap-5">
+      <div>
+        <button class="btn btn-danger" style="border-radius: 50%; width: 100px; height: 100px;" (click)="genera()"></button>
+      </div>
+      <select class="form-select w-50" [(ngModel)]="scelta" aria-label="Default select example">
+        <option value="numeri" routerLink="numeri">Numeri</option>
+        <option value="lettere" routerLink="lettere">Lettere</option>
+      </select>
+    </div>
+</div>
+  
+
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
