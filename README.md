@@ -9,34 +9,34 @@ L'applicazione "Slot Machine" offre un'interfaccia semplice e divertente per sim
 
 ## Tecnologie Utilizzate
 
-- Angular: Framework per la costruzione dell'applicazione web.
+- **Angular**: Framework per la costruzione dell'applicazione web.
 
-- TypeScript: Linguaggio di programmazione per lo sviluppo dell'applicazione.
+- **TypeScript**: Linguaggio di programmazione per lo sviluppo dell'applicazione.
 
-- HTML: Struttura dei componenti e del template.
+- **HTML**: Struttura dei componenti e del template.
 
-- CSS: Per lo styling e le animazioni di "spin" dei risultati.
+- **CSS**: Per lo styling e le animazioni di "spin" dei risultati.
 
-- RxJS (BehaviorSubject): Utilizzato nel servizio per la gestione reattiva e la propagazione dei risultati generati ai componenti di visualizzazione.
+- **RxJS (BehaviorSubject)**: Utilizzato nel servizio per la gestione reattiva e la propagazione dei risultati generati ai componenti di visualizzazione.
 
-- Angular Router: Per la navigazione tra le modalità "numeri" e "lettere".
+- **Angular Router**: Per la navigazione tra le modalità "numeri" e "lettere".
 
-- Bootstrap 5: Framework CSS utilizzato per il layout e lo stile di base (es. btn, form-select, classi di utilità per il layout).
+- **Bootstrap 5**: Framework CSS utilizzato per il layout e lo stile di base (es. btn, form-select, classi di utilità per il layout).
 
 
 ## Funzionalità Principali
 
-- Generazione Casuale: Genera una sequenza casuale di tre numeri (da 0 a 9) o tre lettere maiuscole.
+- **Generazione Casuale**: Genera una sequenza casuale di tre numeri (da 0 a 9) o tre lettere maiuscole.
 
-- Selezione Modalità: Un menu a tendina permette all'utente di scegliere tra la modalità "Numeri" e "Lettere".
+- **Selezione Modalità**: Un menu a tendina permette all'utente di scegliere tra la modalità "Numeri" e "Lettere".
 
-- Animazione di Spin: I risultati vengono visualizzati con un effetto di rotazione (spin-effect) per simulare il movimento di una slot machine.
+- **Animazione di Spin**: I risultati vengono visualizzati con un effetto di rotazione (spin-effect) per simulare il movimento di una slot machine.
 
-- Pulsante "Genera": Un grande pulsante rotondo attiva la generazione di nuovi risultati.
+- **Pulsante "Genera"**: Un grande pulsante rotondo attiva la generazione di nuovi risultati.
 
-- Componenti Dedicati: Separazione della logica di visualizzazione in NumeriComponent e LettereComponent per una maggiore modularità.
+- **Componenti Dedicati**: Separazione della logica di visualizzazione in NumeriComponent e LettereComponent per una maggiore modularità.
 
-- Servizio Condiviso: SlotService gestisce la logica di generazione dei risultati e li distribuisce ai componenti tramite un BehaviorSubject.
+- **Servizio Condiviso**: SlotService gestisce la logica di generazione dei risultati e li distribuisce ai componenti tramite un BehaviorSubject.
 
 
 ## Come Avviare il Progetto
@@ -88,11 +88,11 @@ Questo progetto è un'applicazione Angular divertente e funzionale che dimostra 
 
 ## Contatti
 
-- GitHub: https://github.com/ValeVent
+- **GitHub**: https://github.com/ValeVent
 
-- LinkedIn: https://www.linkedin.com/in/valentina-venturo
+- **LinkedIn**: https://www.linkedin.com/in/valentina-venturo
 
-- Sito Web: http://www.valentinaventuro.it
+- **Sito Web**: http://www.valentinaventuro.it
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
